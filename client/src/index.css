@@ -5,6 +5,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
 :root {
     --violet: #fffb8d;
     --pink: #E29587;
