@@ -20,11 +20,22 @@ AIVANA - Artify is a web application that lets you generate unique and creative 
 
 To get started with AIVANA - Artify, you will need to have a valid OpenAI API key, which you can obtain from the OpenAI website. Once you have your API key, follow these steps:
 
-1. Clone this repository to your local machine using `git clone https://github.com/<username>/aivana-artify.git`.
-2. Install the necessary dependencies using `npm install`.
-3. Create a `.env` file in the root directory of the project and add your OpenAI API key as `REACT_APP_OPENAI_API_KEY=<your-api-key>`.
+1. Clone or download this repository to your local machine.
+2. Install the necessary dependencies using `npm install` in both 'server' & 'client'.
+3. Create a `.env` file in the server directory of the project and add your API keys as :- 
+    OPENAI_API_KEY="<api here>"
+    MONGODB_URL="<api key >"
+    CLOUDINARY_CLOUD_NAME="<api here>"
+    CLOUDINARY_API_KEY="<api her>"
+    CLOUDINARY_API_SECRET="<api here>"
+    CLOUDINARY_URL="<api here>".
 4. Start the application using `npm start`.
 5. Open your web browser and navigate to `http://localhost:3000` to see the AIVANA - Artify app in action.
+
+##Getting API's
+1. Create account and get api from CLOUDINARY `https://cloudinary.com/`
+2. Create account and get api from MONGODB `https://www.mongodb.com/atlas/database`
+3. Create account and get api from OPENAI `https://platform.openai.com/account/api-keys`
 
 ## Contributing
 
