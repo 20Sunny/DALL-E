@@ -29,10 +29,11 @@ To get started with AIVANA - Artify, you will need to have a valid OpenAI API ke
     CLOUDINARY_API_KEY="<api her>"
     CLOUDINARY_API_SECRET="<api here>"
     CLOUDINARY_URL="<api here>".
-4. Start the application using `npm start`.
+4. Start the server using `npm start` & client using `npm run dev`.
+5. Replace 
 5. Open your web browser and navigate to `http://localhost:3000` to see the AIVANA - Artify app in action.
 
-##Getting API's
+## Getting API's
 1. Create account and get api from CLOUDINARY `https://cloudinary.com/`
 2. Create account and get api from MONGODB `https://www.mongodb.com/atlas/database`
 3. Create account and get api from OPENAI `https://platform.openai.com/account/api-keys`
