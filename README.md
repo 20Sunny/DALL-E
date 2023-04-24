@@ -11,10 +11,10 @@ AIVANA - Artify is a web application that lets you generate unique and creative 
 
 ## Features
 
-- **Text-to-image generation**: AIVANA - Artify allows you to enter any text prompt and generate a corresponding image using the DALL-E API.
-- **Interactive interface**: AIVANA - Artify's user-friendly interface lets you easily enter text, preview and download the generated images, and share them on social media.
-- *Customizable options*: AIVANA - Artify gives you control over various parameters, such as image size, background color, and number of image samples, to tailor your art generation experience to your liking.
-- **MERN stack**: AIVANA - Artify is built using the MERN stack, a popular web development framework that combines MongoDB, Express, React, and Node.js, to provide a fast and scalable application that can handle a large number of users and requests.
+- **TEXT-TO-IMAGE GENERATE**: AIVANA - Artify allows you to enter any text prompt and generate a corresponding image using the DALL-E API.
+- **INTERACTIVE INTERFACE**: AIVANA - Artify's user-friendly interface lets you easily enter text, preview and download the generated images, and share them on social media.
+- **CUSTONIZABLE OPTIONS**: AIVANA - Artify gives you control over various parameters, such as image size, background color, and number of image samples, to tailor your art generation experience to your liking.
+- **MERN STACK**: AIVANA - Artify is built using the MERN stack, a popular web development framework that combines MongoDB, Express, React, and Node.js, to provide a fast and scalable application that can handle a large number of users and requests.
 
 ## Getting started
 
