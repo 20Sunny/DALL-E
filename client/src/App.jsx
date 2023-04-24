@@ -79,7 +79,6 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create-post" element={<CreatePost />} />
-        <Route path="/create-post/*" element={<h1>hello</h1>} />
       </Routes>
     </main>
   </BrowserRouter>
