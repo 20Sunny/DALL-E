@@ -29,9 +29,9 @@ To get started with AIVANA - Artify, you will need to have a valid OpenAI API ke
     CLOUDINARY_API_KEY="<api her>"
     CLOUDINARY_API_SECRET="<api here>"
     CLOUDINARY_URL="<api here>".
-4. Start the server using `npm start` & client using `npm run dev`.
-5. Replace 
-5. Open your web browser and navigate to `http://localhost:3000` to see the AIVANA - Artify app in action.
+4. Replace `https://artify-teyv.onrender.com` in client's CreatePost.jsx and Home.jsx by `https://localhost:8080`.
+5. Start the server using `npm start` & client using `npm run dev`.
+6. Open your web browser and navigate to `http://localhost:5173` to see the AIVANA - Artify app in action.
 
 ## Getting API's
 1. Create account and get api from CLOUDINARY `https://cloudinary.com/`
@@ -52,3 +52,5 @@ Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information on 
 ## License
 
 AIVANA - Artify is open-source software licensed under the [MIT license](LICENSE.md), which allows for free use, modification, and distribution of the codebase, subject to certain conditions. By contributing to AIVANA - Artify, you agree to abide by the terms of this license and to respect the intellectual property of the original authors and contributors.
+
+# screenshots
