@@ -23,11 +23,11 @@ To get started with AIVANA - Artify, you will need to have a valid OpenAI API ke
 1. Clone or download this repository to your local machine.
 2. Install the necessary dependencies using `npm install` in both 'server' & 'client'.
 3. Create a `.env` file in the server directory of the project and add your API keys as :- 
-    OPENAI_API_KEY="<api here>"
-    MONGODB_URL="<api key >"
-    CLOUDINARY_CLOUD_NAME="<api here>"
-    CLOUDINARY_API_KEY="<api her>"
-    CLOUDINARY_API_SECRET="<api here>"
+    OPENAI_API_KEY="<api here>"<br>
+    MONGODB_URL="<api key >"<br>
+    CLOUDINARY_CLOUD_NAME="<api here>"<br>
+    CLOUDINARY_API_KEY="<api her>"<br>
+    CLOUDINARY_API_SECRET="<api here>"<br>
     CLOUDINARY_URL="<api here>".
 4. Replace `https://artify-teyv.onrender.com` in client's CreatePost.jsx and Home.jsx by `https://localhost:8080`.
 5. Start the server using `npm start` & client using `npm run dev`.
