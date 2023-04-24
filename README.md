@@ -50,6 +50,6 @@ We welcome contributions from the community to help improve AIVANA - Artify and 
 
 ## License
 
-AIVANA - Artify is open-source software licensed under the [MIT license](LICENSE.md), which allows for free use, modification, and distribution of the codebase, subject to certain conditions. By contributing to AIVANA - Artify, you agree to abide by the terms of this license and to respect the intellectual property of the original authors and contributors.
+AIVANA - Artify is open-source software licensed under the Apache-2.0 license, which allows for free use, modification, and distribution of the codebase, subject to certain conditions. By contributing to AIVANA - Artify, you agree to abide by the terms of this license and to respect the intellectual property of the original authors and contributors.
 
-# screenshots
+## Screenshots
