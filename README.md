@@ -47,7 +47,6 @@ We welcome contributions from the community to help improve AIVANA - Artify and 
 - Creating pull requests to fix bugs or add new features
 - Sharing your generated art on social media and spreading the word about AIVANA - Artify
 
-Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information on how to contribute to this project.
 
 ## License
 
