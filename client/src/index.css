@@ -268,3 +268,7 @@ textarea::placeholder {
     transition: 0s;
     transform: translate(0, 5%);
 }
+
+abbr[title] {
+    text-decoration: none;
+}
