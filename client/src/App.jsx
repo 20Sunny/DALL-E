@@ -18,7 +18,7 @@ const LogButton = () => {
   const { loginWithRedirect, isAuthenticated, logout, user} = useAuth0();
   if (isAuthenticated){
     return <button className="flex gap-x-2 gap-y-0 font-inter font-medium border-2 border-white text-white px-4 py-2 rounded-3xl" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
-    <abbr title={user.given_name}><img className='rounded-3xl h-6' src={user.picture} alt="Profile" /></abbr><abbr title={user.email}>Log Out</abbr>
+    <abbr title={user.name}><img className='rounded-3xl h-6' src={user.picture} alt="Profile" /></abbr><abbr title={user.email}>Log Out</abbr>
   </button>;
   }
   return <button className="flex gap-x-2 gap-y-0 font-inter font-medium border-2 border-white text-white px-4 py-2 rounded-3xl" onClick={() => loginWithRedirect()}><img src={google} alt="Google" />Log In</button>;
