@@ -53,6 +53,14 @@ We welcome contributions from the community to help improve AIVANA - Artify and 
 AIVANA - Artify is open-source software licensed under the Apache-2.0 license, which allows for free use, modification, and distribution of the codebase, subject to certain conditions. By contributing to AIVANA - Artify, you agree to abide by the terms of this license and to respect the intellectual property of the original authors and contributors.
 
 ## Screenshots
+
+### Home Page (you can access this page even without login)
 ![Image Generation App](https://res.cloudinary.com/dhbyg08yc/image/upload/h_1600/v1683000284/aivanaart.vercel.app__dqrlpw.png)
+
+
+### Login Page
 ![Image Generation App](https://res.cloudinary.com/dhbyg08yc/image/upload/v1683000277/login_hjqdlh.png)
+
+
+### Create Page (only accessable after login)
 ![Image Generation App](https://res.cloudinary.com/dhbyg08yc/image/upload/v1683000277/create_fhs71c.png)
