@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
-
+import { User, useAuth0 } from "@auth0/auth0-react";
 import { preview } from '../assets';
 import { getRandomPrompt } from '../utils';
 import { FormField, Loader } from '../components';
 
 const CreatePost = () => {
   const navigate = useNavigate();
-
+  const {isAuthenticated, user} = useAuth0();
   const [form, setForm] = useState({
     name: '',
     prompt: '',
@@ -96,7 +96,8 @@ const CreatePost = () => {
             type="text"
             name="name"
             placeholder="Ex., john doe"
-            value={form.name}
+            // value={form.name}
+            value={user.name}
             handleChange={handleChange}
           />
 
