@@ -96,8 +96,8 @@ const CreatePost = () => {
             type="text"
             name="name"
             placeholder="Ex., john doe"
-            // value={form.name}
-            value={user.name}
+            value={form.name}
+//             value={user.name}
             handleChange={handleChange}
           />
 
