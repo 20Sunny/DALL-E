@@ -1,3 +1,4 @@
+i have not active api that why it not work on live site
 # AIVANA - Artify
 
 AIVANA - Artify is a web application that lets you generate unique and creative artwork from textual prompts, using OpenAI's DALL-E API. With AIVANA - Artify, you can explore the possibilities of generative art and see your words come to life in stunning images that are both unexpected and delightful.
