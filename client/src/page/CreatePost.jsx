@@ -95,7 +95,7 @@ const CreatePost = () => {
             labelName="Your Name"
             type="text"
             name="name"
-            placeholder="Ex., john doe"
+            placeholder={user.name}
             value={form.name}
 //             value={user.name}
             handleChange={handleChange}
@@ -118,7 +118,11 @@ const CreatePost = () => {
               <img
                 src={form.photo}
                 alt={form.prompt}
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain" onClick={() => Swal.fire({
+    imageUrl: form.photo,
+    imageHeight: 512,
+    imageAlt: form.prompt,
+  })}
               />
             ) : (
               <img
@@ -134,7 +138,11 @@ const CreatePost = () => {
               </div>
             )}
           </div>
-          <div className='w-4/5 px-4 sm:block hidden border-2 neo h-64 text-center overflow-auto pb-5 pt-5'><img src={form.photo} alt={form.prompt} /></div>
+          <div className='w-4/5 px-4 sm:block hidden border-2 neo h-64 text-center overflow-auto pb-5 pt-5'><img src={form.photo} alt={form.prompt} onClick={() => Swal.fire({
+    imageUrl: form.photo,
+    imageHeight: 512,
+    imageAlt: form.prompt,
+  })} /></div>
           </div>
         </div>
 
