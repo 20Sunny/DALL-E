@@ -13,7 +13,7 @@ const Card = ({ _id, name, prompt, photo }) => (
         imageUrl: photo,
         imageHeight: 512,
         imageAlt: prompt,
-        text: prompt
+        text: prompt,
       })}
     />
     <div className="group-hover:flex flex-col max-h-[94.5%] hidden absolute bottom-0 left-0 right-0 m-2 p-4 glass-hover">
