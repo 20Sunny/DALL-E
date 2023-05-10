@@ -121,6 +121,7 @@ const CreatePost = () => {
                 className="w-full h-full object-contain" onClick={() => Swal.fire({
     imageUrl: form.photo,
     imageHeight: 512,
+    text: form.prompt,
     imageAlt: form.prompt,
   })}
               />
@@ -141,6 +142,7 @@ const CreatePost = () => {
           <div className='w-4/5 px-4 sm:block hidden border-2 neo h-64 text-center overflow-auto pb-5 pt-5'><img src={form.photo} alt={form.prompt} onClick={() => Swal.fire({
     imageUrl: form.photo,
     imageHeight: 512,
+    text: form.prompt
     imageAlt: form.prompt,
   })} /></div>
           </div>
