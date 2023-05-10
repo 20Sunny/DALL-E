@@ -95,7 +95,7 @@ const CreatePost = () => {
             labelName="Your Name"
             type="text"
             name="name"
-            placeholder={user.name}
+            placeholder={ isAuthenticated ? user.name : 'Please enter your name'}
             value={form.name}
 //             value={user.name}
             handleChange={handleChange}
