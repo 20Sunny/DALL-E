@@ -2,13 +2,18 @@ import React from 'react';
 import earth from '../assets/earth.svg';
 import { download } from '../assets';
 import { downloadImage } from '../utils';
+import Swal from 'sweetalert2';
 
 const Card = ({ _id, name, prompt, photo }) => (
   <div className="rounded-xl group relative shadow-card hover:shadow-cardhover card">
     <img
       className="w-full h-auto object-cover rounded-xl drop-shadow-d"
       src={photo}
-      alt={prompt}
+      alt={prompt} onClick={() => Swal.fire({
+        imageUrl: photo,
+        imageHeight: 512,
+        imageAlt: prompt,
+      })}
     />
     <div className="group-hover:flex flex-col max-h-[94.5%] hidden absolute bottom-0 left-0 right-0 m-2 p-4 glass-hover">
       <p className="text-black text-sm overflow-y-auto prompt font-bold">{prompt}</p>
