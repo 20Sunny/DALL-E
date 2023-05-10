@@ -122,7 +122,7 @@ const CreatePost = () => {
     imageUrl: form.photo,
     imageHeight: 512,
     text: form.prompt,
-    imageAlt: form.prompt,
+    imageAlt: form.prompt
   })}
               />
             ) : (
