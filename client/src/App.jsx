@@ -3,7 +3,7 @@ import Swal from 'sweetalert2';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import google from './assets/google.svg';
 import { logo } from './assets';
-import { Home, CreatePost } from './page';
+import { Home, CreatePost, No } from './page';
 import { User, useAuth0 } from "@auth0/auth0-react";
 
 const CreateButton = () => {
@@ -112,8 +112,8 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create-post" element={<CreatePost />} />
-        <Route path="/*" element={<Home />} />
-        <Route path="/create-post" element={<Home />} />
+        <Route path="/*" element={<No />} />
+        <Route path="/create-post/*" element={<No />} />
       </Routes>
     </main>
   </BrowserRouter>
