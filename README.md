@@ -67,3 +67,5 @@ AIVANA - Artify is open-source software licensed under the Apache-2.0 license, w
 ### Create Page (only accessable after login)
 ![Image Generation App](https://res.cloudinary.com/dhbyg08yc/image/upload/v1683000277/create_fhs71c.png)
 
+### 404 Page (when you enter wrong url with the domain)
+![Image Generation App](https://res.cloudinary.com/dhbyg08yc/image/upload/v1684560603/404_qgnskw.png)
