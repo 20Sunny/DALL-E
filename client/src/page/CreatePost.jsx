@@ -42,7 +42,7 @@ const CreatePost = () => {
         const data = await response.json();
         setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
       } catch (err) {
-        Swal.fire({err},"Not able to generate image","error");
+        Swal.fire('OpenAI API has been Expired',"Not able to generate image","error");
       } finally {
         setGeneratingImg(false);
       }
