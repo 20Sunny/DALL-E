@@ -1,6 +1,9 @@
 i have not active api that why it not work on live site
-
-# AIVANA - Artify
+<p align="center">
+  <img width="180" src="./public/logo.png" alt="ChatGPT">
+  <h1 align="center">ChatGPT</h1> 
+  <p align="center">ChatGPT Desktop Application (Mac, Windows and Linux)</p>
+</p>
 
 AIVANA - Artify is a web application that lets you generate unique and creative artwork from textual prompts, using OpenAI's DALL-E API. With AIVANA - Artify, you can explore the possibilities of generative art and see your words come to life in stunning images that are both unexpected and delightful.
 
