@@ -2,7 +2,7 @@
   <img width="180" src="https://aivanaart.vercel.app/assets/logo-76f396b8.png" alt="AIVANA">
   <h1 align="center">AIVANA - Artify
   <br><h6 align="center">i have not active api that why it not work on live site</h6>
-  </h1> 
+  </h1>
 </p>
 
 AIVANA - Artify is a web application that lets you generate unique and creative artwork from textual prompts, using OpenAI's DALL-E API. With AIVANA - Artify, you can explore the possibilities of generative art and see your words come to life in stunning images that are both unexpected and delightful.
