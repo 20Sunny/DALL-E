@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center"> 
   <img width="180" src="https://aivanaart.vercel.app/assets/logo-76f396b8.png" alt="AIVANA">
   <h1 align="center">AIVANA - Artify
   <br><h6 align="center">I have not active api that why it not work on live site</h6>
