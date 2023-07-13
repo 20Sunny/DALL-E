@@ -11,7 +11,7 @@ const CreateButton = () => {
   if (isAuthenticated){
     return <Link to="/create-post" className="font-inter font-medium border-2 border-white text-white px-4 py-2 rounded-3xl">🖋️ Create</Link>;
   }
-  return <Link  className="font-inter font-medium border-2 border-white text-white px-4 py-2 rounded-3xl cursor-not-allowed">🔒 Create</Link>;
+  return <Link to="/create-post"  className="font-inter font-medium border-2 border-white text-white px-4 py-2 rounded-3xl cursor-not-allowed">🔒 Create</Link>;
 };
 
 const LogButton = () => {
